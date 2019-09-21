@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>tekito</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/top.css">
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="top_header">
+			<header id="header">
+				<div class="container">
+					<div><a href="./index.html"><img src="images/small_logo.png"></a></div>
+					<div class="headerBtnBox">
+						<a class="login_btn" href="./index.html">トップページへ</a>
+					</div>
+				</div>
+			</header>
+		</div>
+
+
+		<main>
+			<section id="sec01" class="section">
+				<div class="container">
+					<h1>会員登録</h1>
+					<div class="registration_form">
+						<form class="nl-SignupForm" action="/registration" accept-charset="UTF-8" method="post">
+							<input name="utf8" type="hidden" value="✓">
+							<input type="hidden" name="authenticity_token" value="MK4GBBdlMJKuGmRB/fnTxPxoGRCYbtyuY2Tak/jd0JOmMcHPxGaCAu3ZfubVF3irAoV1l9yGnLiz4pxz4NOjgQ==">
+							<div class="mb-2 nl-SignupForm_group">
+								<label class="nl-SignupForm_label" for="url_name">
+									ユーザ名
+								</label>
+								<input class="nl-SignupForm_input" id="url_name" name="user[url_name]" placeholder="igus_taro" type="text">
+							</div>
+							<div class="mb-2 nl-SignupForm_group">
+								<label class="nl-SignupForm_label" for="email">
+									メールアドレス
+								</label>
+								<input class="nl-SignupForm_input" id="email" name="user[email]" placeholder="igus_taro@Igus.jp" type="email">
+							</div>
+							<div class="mb-1 nl-SignupForm_group">
+								<label class="nl-SignupForm_label" for="password">
+									パスワード
+								</label>
+								<input class="nl-SignupForm_input" id="password" name="user[password]" placeholder="********" type="password">
+							</div>
+							<span class="mb-2 nl-SignupForm_helpText">8文字以上、英・数・記号が使えます</span>
+							<script src="https://www.google.com/recaptcha/api.js" defer="defer" async="async"></script>
+							<div class="nl-SignupForm_recaptcha">
+								<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+								<div data-sitekey="6LfNkiQTAAAAAM3UGnSquBy2akTITGNMO_QDxMw6" class="g-recaptcha "><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfNkiQTAAAAAM3UGnSquBy2akTITGNMO_QDxMw6&amp;co=aHR0cHM6Ly9xaWl0YS5jb206NDQz&amp;hl=ja&amp;v=v1566858990656&amp;size=normal&amp;cb=4sjkkc7kn6ui" width="304" height="78" role="presentation" name="a-ys961thoyzah" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+								<noscript>
+									<div>
+									<div style="width: 302px; height: 422px; position: relative;">
+										<div style="width: 302px; height: 422px; position: absolute;">
+										<iframe
+											src="https://www.google.com/recaptcha/api"
+											frameborder="0" scrolling="no"
+											style="width: 302px; height:422px; border-style: none;">
+										</iframe>
+										</div>
+									</div>
+									<div style="width: 300px; height: 60px; border-style: none;
+										bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+										background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+										<textarea id="g-recaptcha-response" name="g-recaptcha-response"
+										class="g-recaptcha-response"
+										style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+										margin: 10px 25px; padding: 0px; resize: none;" value="">
+										</textarea>
+									</div>
+									</div>
+								</noscript>
+							</div>
+							<div class="nl-SignupForm_buttonArea mt-4"><a class="login_btn" href="./top.html">登録する</a></div>
+							<div class="nl-SignupForm_attention mt-4">登録には<a href="/terms">利用規約</a>に同意する必要があります。</div></div>
+						</form>
+				</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="footer" class="site-footer">
+				<div class="container">
+					<div class="copyright">Copyright © 2019 Igus All Rights Reserved.</div>
+					<div class="d-flex">
+						<div><a href="./about.html">サイトの概要</a></div>/
+						<div><a href="./privacy.html">プライバシーポリシー</a></div>
+					</div>
+				</div>
+		</footer>
+
+		<!-- /#page -->
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

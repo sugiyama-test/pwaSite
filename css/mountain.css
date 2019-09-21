@@ -1,0 +1,82 @@
+main , .anime {
+    background: #b3ffe6;
+}
+
+/* header */
+.top_header {
+    background:url(../images/mountain_bg.jpg) fixed;
+    color: #fff;
+}
+
+.nl-SignupForm input {
+    color:limegreen;
+}
+
+.login_btn {
+    background: #fff;
+    color:#000;
+}
+
+section {
+    padding:80px 0px;
+}
+
+/* footer */
+footer {
+    background:url(../images/mountain_bg.jpg) fixed;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color:green;
+}
+
+/* btn */
+
+/* ここから下がボタンのCSS　*/
+.login_btn {
+    border: 2px solid #9ec34b;
+    color: #9ec34b;
+  }
+  
+  .login_btn:hover {
+    background-color: #9ec34b;
+    border-color: #cbe585;
+    color: #FFF;
+  }
+
+  .left_box {
+    background: #fff;
+  }
+
+  .right_box {
+  }
+
+
+
+@media (min-width: 1200px){
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 575px) {
+
+}

@@ -1,0 +1,207 @@
+/* 共通CSS */
+
+body{
+    color: #000;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 32px;
+
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+p {
+    margin-bottom:0;
+}
+
+a {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+li a {
+    display: block;
+    padding:10px;
+    margin-bottom:5px;
+    border-radius: 40px;
+    background: #fff;
+}
+
+li a:hover {
+    background: pink;
+    text-decoration: none;
+}
+
+
+
+h1 , h2 {
+    font-weight: bold;
+}
+
+/* header */
+header {
+    padding:10px 0px;
+}
+
+.top_header {
+    background-size: cover;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nl-SignupForm input {
+    width:70%;
+    padding:5px 10px;
+}
+
+.nl-SignupForm_label {
+    display:block;
+}
+
+.g-recaptcha  {
+    margin-top:20px;
+}
+
+.nl-SignupForm_button {
+    margin-top:20px;
+}
+
+.login_btn {
+    background: #fff;
+    text-decoration: none;
+    color:#000;
+    display:block;
+}
+
+section {
+    padding:80px 0px;
+}
+
+.article_card {
+    margin-bottom:15px;
+}
+
+.article_card a {
+    display: block;
+    color:#000;
+    border:1px solid #000;
+}
+
+.article_card a:hover {
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding:10px 0px;
+}
+
+footer .container {
+    display:flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* btn */
+
+.login_btn {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: .4s;
+  }
+  
+  .login_btn:hover {
+    text-decoration: none;
+  }
+
+  .left_box {
+    background: #fff;
+    width:100%;
+    padding:20px;
+  }
+
+  .right_box {
+  }
+
+
+
+
+/* サイドバーの遷移ボタン */
+li a.camp_btn {
+    border:2px solid #ffbf7f;
+}
+
+li a.fishing_btn {
+    border:2px solid #b7ffff;
+}
+
+li a.sea_btn {
+    border:2px solid #b7dbff;
+}
+
+li a.travel_btn {
+    border:2px solid #ffdbb7;
+}
+
+li a.mountain_btn {
+    border:2px solid #b7ffb7;
+}
+
+
+
+
+@media (min-width: 1200px){
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+    header .container {
+        display:block;
+    }
+
+    .right_contents {
+        margin-top:30px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+}

@@ -1,0 +1,200 @@
+body{
+    color: #000;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 32px;
+
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+p {
+    margin-bottom:0;
+}
+
+a {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+li a {
+    display: block;
+    padding:10px;
+    margin-bottom:5px;
+    border-radius: 40px;
+    background: #fff;
+}
+
+li a.camp_btn {
+    border:2px solid #ffbf7f;
+}
+
+li a.fishing_btn {
+    border:2px solid #b7ffff;
+}
+
+li a.sea_btn {
+    border:2px solid #b7dbff;
+}
+
+li a.travel_btn {
+    border:2px solid #ffdbb7;
+}
+
+li a.mountain_btn {
+    border:2px solid #b7ffb7;
+}
+
+li a:hover {
+    background: pink;
+    text-decoration: none;
+}
+
+
+main {
+    background: #efffef;
+}
+
+h1 , h2 {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'corp_round_v1';
+    src: url('../font/corp_round_v1.ttf') format('truetype'),
+}
+
+/* header */
+header {
+    padding:10px 0px;
+}
+
+.top_header {
+    background: linear-gradient(-45deg, rgba(158, 195, 75, .5), rgba(158, 195, 75, .5)) fixed, url(../images/green.jpg) fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nl-SignupForm input {
+    width:70%;
+    padding:5px 10px;
+    color:limegreen;
+}
+
+.nl-SignupForm_label {
+    display:block;
+}
+
+.g-recaptcha  {
+    margin-top:20px;
+}
+
+.nl-SignupForm_button {
+    margin-top:20px;
+}
+
+.login_btn {
+    background: #fff;
+    text-decoration: none;
+    color:#000;
+    display:block;
+}
+
+section {
+    padding:80px 0px;
+}
+
+/* footer */
+footer {
+    background: #9ec34b;
+    text-align: center;
+    padding:10px 0px;
+    color: #fff;
+}
+
+footer .container {
+    display:flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color:green;
+    text-decoration: none;
+}
+
+/* btn */
+
+/* ここから下がボタンのCSS　*/
+.login_btn {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #9ec34b;
+    font-size: 16px;
+    color: #9ec34b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: .4s;
+  }
+  
+  .login_btn:hover {
+    background-color: #9ec34b;
+    border-color: #cbe585;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .left_box {
+    background: #fff;
+    width:100%;
+    padding:20px;
+  }
+
+  .right_box {
+  }
+
+
+
+@media (min-width: 1200px){
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 575px) {
+
+}
